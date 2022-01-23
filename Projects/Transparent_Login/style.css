@@ -11,8 +11,8 @@ body{
 }
 
 main{
-  height:25rem;
-  width: 40rem;
+  /* height:25rem;
+  width: 40rem; */
   background-color: rgba(128,128, 128, .6);
   border-radius: 20px;
   border: white solid 1px;
@@ -23,7 +23,23 @@ main{
   align-items: center;
   justify-content: center;
   color: white;
-  font-family: sans-serif;
-  
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  padding: 5rem;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+h2{
+  margin:.5rem, 0;
+  font-size: 1rem;
+}
+
+.submit-btn{
+  margin-top: 1rem;
 }
 
