@@ -1,0 +1,20 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+width: 100vw;
+overflow: hidden;
+background-color: grey;
+}
+
+.pfp{
+  height: 20vh;
+  width: 20vh;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.pfp:hover{
+  border: 1px green solid;
+}
