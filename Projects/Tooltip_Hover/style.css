@@ -6,7 +6,10 @@ height: 100vh;
 width: 100vw;
 overflow: hidden;
 background-color: grey;
+flex-direction: column;
 }
+
+
 
 .pfp{
   height: 20vh;
@@ -16,5 +19,27 @@ background-color: grey;
 }
 
 .pfp:hover{
-  border: 1px green solid;
+  border: 3px white solid;
+}
+.pfp-holder{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.pfp-holder:hover::before{
+  content: "A Cool Cat Picture";
+  color:white;
+  margin-bottom: 1rem;
+  border: 1px black solid;
+  background-color: black;
+  padding:1rem;
+  border-radius: 10px;
+  position:absolute;
+  top: -5rem;
+  font-size: 1/5rem;
+  font-weight: 700;
+  transition: .5s;
+  
 }
