@@ -17,10 +17,6 @@ flex-direction: column;
   border-radius: 50%;
   cursor: pointer;
 }
-
-.pfp:hover{
-  border: 3px white solid;
-}
 .pfp-holder{
   display: flex;
   flex-direction: column;
@@ -35,11 +31,12 @@ flex-direction: column;
   border: 1px black solid;
   background-color: black;
   padding:1rem;
-  border-radius: 10px;
+ box-shadow: black 10px 10px;
   position:absolute;
-  top: -5rem;
-  font-size: 1/5rem;
+  top: -7rem;
+  font-size: 1rem;
   font-weight: 700;
-  transition: .5s;
-  
+  clip-path: polygon(0% 0%,100% 0%,100% 75%,63% 75%,53% 100%,42% 75%,0% 75%);
+  height:5rem;
+  width: 5rem;
 }
