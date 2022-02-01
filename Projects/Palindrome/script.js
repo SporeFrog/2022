@@ -39,4 +39,9 @@ const reverseNum = num => {
      }
    }
  }
+let chosenNumber = document.querySelector(".userGivenNumber").textContent;
+
+ document.querySelector("button").addEventListener(click, function(chosenNumber){
+alert("It works");
+ })
  
