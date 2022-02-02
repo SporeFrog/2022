@@ -1,3 +1,4 @@
+console.log("working")
 const reverseNum = num => {
   let reversed = num.split("").reverse().join("");
    return reversed;
@@ -39,9 +40,7 @@ const reverseNum = num => {
      }
    }
  }
-let chosenNumber = document.querySelector(".userGivenNumber").textContent;
+let userValue = document.querySelector(".userGivenNumber").value;
 
- document.querySelector("button").addEventListener(click, function(chosenNumber){
-alert("It works");
- })
- 
+
+
