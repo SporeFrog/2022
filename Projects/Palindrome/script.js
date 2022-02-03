@@ -40,7 +40,14 @@ const reverseNum = num => {
      }
    }
  }
-let userValue = document.querySelector(".userGivenNumber").value;
+
+
+
+document.querySelector(".submitBtn").addEventListener("click", function(){
+  let userValue = document.querySelector(".userGivenNumber").value;
+  console.log(userValue);
+  checkPalindrome(userValue);
+})
 
 
 
