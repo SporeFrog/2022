@@ -16,7 +16,7 @@ const reverseNum = num => {
      console.log(firstHalf);
      let secondHalf = numString.slice(halfOfCharacters, numCharacters);
      console.log(secondHalf);
-    let reversedSecondHalf = reverseNum(secondHalf);
+     let reversedSecondHalf = reverseNum(secondHalf);
      console.log(reversedSecondHalf);
      if(firstHalf == reversedSecondHalf){
        return `${num} is a palindrome`;
@@ -24,7 +24,7 @@ const reverseNum = num => {
      }else{
        `${num} is not a palindrome`;
      };
-   } else if (numCharacters % 2 === 1){
+   } else {
      let halfOfCharacters = (numCharacters -1) / 2;
      console.log(`Half the Length Minus One of a Number with Odd Amount of Digits: ${halfOfCharacters}`);
      let firstHalf = numString.slice(0,halfOfCharacters);
@@ -33,7 +33,7 @@ const reverseNum = num => {
      console.log(secondHalf);
     let reversedSecondHalf = secondHalf.split("").reverse().join("");
      console.log(reversedSecondHalf);
-     if(firstHalf == reversedSecondHalf){
+     if(firstHalf === reversedSecondHalf){
        return `${num} is a palindrome`
      }else{
        return `${num} is not a palindrome`
