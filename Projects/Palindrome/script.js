@@ -19,10 +19,10 @@ const reverseNum = num => {
      let reversedSecondHalf = reverseNum(secondHalf);
      console.log(reversedSecondHalf);
      if(firstHalf === reversedSecondHalf){
-       return console.log(`${num} is a palindrome`);
+      document.querySelector(".result").textContent = `${num} is a palindrome`;
       
      }else{
-      return console.log(`${num} is not a palindrome`);
+      document.querySelector(".result").textContent =`${num} is not a palindrome`;
      };
    } else {
      let halfOfCharacters = (numCharacters -1) / 2;
@@ -34,9 +34,9 @@ const reverseNum = num => {
     let reversedSecondHalf = secondHalf.split("").reverse().join("");
      console.log(reversedSecondHalf);
      if(firstHalf === reversedSecondHalf){
-       return console.log(`${num} is a palindrome`);
+          document.querySelector(".result").textContent = `${num} is a palindrome`
      }else{
-       return console.log(`${num} is not a palindrome`);
+      document.querySelector(".result").textContent = `${num} is not a palindrome`;
      }
    }
  }
