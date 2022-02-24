@@ -1,9 +1,7 @@
-let btn = document.querySelector(".sb-btn");
-let form = document.querySelector("#myForm");
+function greeting(){
+  let username = document.getElementById("nameField").value;
+  let greeting = `Hello ${username}`;
+  let greetingText = `<p>${greeting}</p>`;
+  document.querySelector(".greeting").innerHTML = greetingText;
 
-function cancelSubmit(e){
-e.preventDefault();
-alert("yay")
 }
-btn.addEventListener("click", cancelSubmit);
-form.addEventListener("click", cancelSubmit);

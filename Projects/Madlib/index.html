@@ -10,11 +10,12 @@
   <title>MadLib</title>
 </head>
 <body>
-  <form id="myForm" action="submit">
+  <form id="myForm" action="" method="post" onsubmit="greeting(); return false">
     <h2>Enter the following information</h2>
-    <label for=".nameField">Enter your name</label>
-    <input class="nameField" type="text">
-    <button type="submit" class="sb-btn">Submit</button>
+    <label for="nameField">Enter your name</label>
+    <input id="nameField" type="text">
+    <button type="" class="sb-btn">Submit</button>
   </form>
+  <p class="greeting"></p>
 </body>
 </html>
