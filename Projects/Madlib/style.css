@@ -1,0 +1,16 @@
+form{
+  display: flex;
+  flex-direction: column;
+}
+input{
+  width:50%;
+}
+
+button{
+  width:50%;
+}
+
+.text{
+  font-size: 2rem;
+  border: 1px black dotted;
+}
