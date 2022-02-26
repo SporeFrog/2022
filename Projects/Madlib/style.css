@@ -15,7 +15,7 @@ button{
   border: 1px black dotted;
 }
 
-.userInput{
+p .userInput{
   color: red;
   font-weight: 700;
 }
