@@ -7,7 +7,7 @@ function greeting(){
   let noun2 = document.getElementById("noun2").value;
   let madlibText = 
   `<p>
-There are many ${adjective1} ways to choose a/n ${noun1} to read. First, you could ask for recommendations from you friends and ${pNoun1}. Just don't ask Aunt ${person1} -- she only reads ${adjective2} books with ${noun2}-ripping goddeses on the cover.
+There are many ${adjective1} ways to choose a/n ${noun1} to read. First, you could ask for recommendations from your friends and ${pNoun1}. Just don't ask Aunt ${person1} -- she only reads ${adjective2} books with ${noun2}-ripping goddeses on the cover.
   </p>`;
   document.querySelector(".text").innerHTML = madlibText;
 
